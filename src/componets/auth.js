@@ -12,7 +12,7 @@ export const Auth = () => {
         try {
             await createUserWithEmailAndPassword(auth, email, password)
         } catch (err) {
-            console.log(err)
+            console.error(err)
         }
         
     }
