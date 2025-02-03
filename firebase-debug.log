@@ -1,0 +1,46 @@
+[debug] [2025-02-03T19:03:20.191Z] ----------------------------------------------------------------------
+[debug] [2025-02-03T19:03:20.198Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\micha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-03T19:03:20.199Z] CLI Version:   13.29.3
+[debug] [2025-02-03T19:03:20.199Z] Platform:      win32
+[debug] [2025-02-03T19:03:20.199Z] Node Version:  v22.13.1
+[debug] [2025-02-03T19:03:20.200Z] Time:          Mon Feb 03 2025 11:03:20 GMT-0800 (Pacific Standard Time)
+[debug] [2025-02-03T19:03:20.200Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-03T19:03:20.220Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-03T19:03:20.221Z] > authorizing via signed-in user (michaelmirisciotta@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\micha\OneDrive\Desktop\Firebase\firebase_react_c
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-03T19:03:33.172Z] Checked if tokens are valid: true, expires at: 1738612410937
+[debug] [2025-02-03T19:03:33.172Z] Checked if tokens are valid: true, expires at: 1738612410937
+[debug] [2025-02-03T19:03:33.174Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-02-03T19:03:33.802Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-02-03T19:03:33.802Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project deploy-firebase-1d57b (reactFirebaseC) 
+[info] 
+=== Hosting Setup
+[debug] [2025-02-03T19:03:36.363Z] Checked if tokens are valid: true, expires at: 1738612410937
+[debug] [2025-02-03T19:03:36.363Z] Checked if tokens are valid: true, expires at: 1738612410937
+[debug] [2025-02-03T19:03:36.363Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/deploy-firebase-1d57b [none]
+[debug] [2025-02-03T19:03:36.552Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/deploy-firebase-1d57b 200
+[debug] [2025-02-03T19:03:36.552Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/deploy-firebase-1d57b {"projectId":"deploy-firebase-1d57b","projectNumber":"436135247749","displayName":"reactFirebaseC","name":"projects/deploy-firebase-1d57b","resources":{"hostingSite":"deploy-firebase-1d57b"},"state":"ACTIVE","etag":"1_c3abe2fe-794b-4a2e-bf47-d8455989ced5"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
